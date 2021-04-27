@@ -1,0 +1,426 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #100A30;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1232px;
+  padding: 33px 15px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1232px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+}
+
+.nav__item {
+  margin-left: 4.4rem;
+}
+
+.nav__item:first-child {
+  margin-left: 0;
+}
+
+.nav__item:last-child {
+  margin-left: 2.7rem;
+}
+
+.nav__link {
+  color: #100A30;
+}
+
+.nav__btn {
+  font-size: 1.4rem;
+  background-color: #624DE3;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 1.6rem 2.6rem;
+  border-radius: .6rem;
+}
+
+.banner {
+  position: relative;
+  text-align: center;
+  background-color: #100A30;
+  color: #FFFFFF;
+  padding-top: 62px;
+  padding-bottom: 757px;
+}
+
+.banner__title {
+  font-size: 5.5rem;
+  font-weight: 400;
+  max-width: 570px;
+  margin: 0 auto 3.1rem;
+}
+
+.banner__img {
+  position: absolute;
+  bottom: -172px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.banner .btn-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 5.5rem;
+}
+
+.banner .btn-group__btn {
+  display: inline-block;
+  border: 1px solid #FFFFFF;
+  font-size: 1.6rem;
+  padding: 1.7rem 3.7rem;
+  color: #FFFFFF;
+  border-radius: .6rem;
+  margin: 0 .8rem;
+}
+
+.banner .btn-group__btn-main {
+  font-size: 1.5rem;
+  background-color: #624DE3;
+  border: 1px solid #624DE3;
+  padding: 1.6rem 3.7rem;
+}
+
+.section {
+  padding-top: 150px;
+  padding-bottom: 86px;
+}
+
+.section__title {
+  padding-top: 60px;
+  font-size: 4.8rem;
+  font-weight: 700;
+  text-align: center;
+  max-width: 650px;
+  margin: 0 auto;
+  padding-left: 27px;
+}
+
+.tarif {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 6.5rem;
+}
+
+.tarif-item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 32%;
+          flex: 0 0 32%;
+}
+
+.tarif-item .tarif-header {
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: .8rem .8rem 0 0;
+}
+
+.tarif-item .tarif-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 148px 0 24px 30px;
+}
+
+.tarif-item .tarif-info__title {
+  font-size: 2.4rem;
+  font-weight: 400;
+  color: #FFFFFF;
+  position: relative;
+  padding-top: 14px;
+}
+
+.tarif-item .tarif-info__title::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -13px;
+  left: 0;
+  background-image: url(../images/card-logo.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 6.1rem;
+  height: 1.6rem;
+}
+
+.tarif-item .tarif-info__price {
+  padding-top: 20px;
+  font-size: 4.8rem;
+  font-weight: 400;
+  margin: 0;
+  color: #FFFFFF;
+  padding-right: 37px;
+}
+
+.tarif-item .tarif-info__price span {
+  font-size: 1.5rem;
+}
+
+.tarif-item-01 .tarif-header {
+  background-image: url(../images/tarif-01-bg.svg);
+}
+
+.tarif-item-01 .tarif-footer {
+  background-color: rgba(16, 10, 48, 0.03);
+}
+
+.tarif-item-01 .tarif-list__item::before {
+  background-image: url(../images/check-01.svg);
+}
+
+.tarif-item-02 .tarif-header {
+  background-image: url(../images/tarif-02-bg.svg);
+}
+
+.tarif-item-02 .tarif-footer {
+  background-color: rgba(25, 199, 135, 0.05);
+}
+
+.tarif-item-02 .tarif-list__item::before {
+  background-image: url(../images/check-02.svg);
+}
+
+.tarif-item-03 .tarif-header {
+  background-image: url(../images/tarif-03-bg.svg);
+}
+
+.tarif-item-03 .tarif-footer {
+  background-color: rgba(252, 185, 52, 0.05);
+}
+
+.tarif-item-03 .tarif-list__item::before {
+  background-image: url(../images/check-03.svg);
+}
+
+.tarif-footer {
+  border-radius: 0 0 .8rem .8rem;
+  padding: 1.4rem 3rem;
+}
+
+.tarif-list__item {
+  position: relative;
+  padding-left: 3rem;
+  margin-bottom: 2.4rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.tarif-list__item::before {
+  content: "";
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  top: calc(50% - 1rem);
+  left: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.reviews {
+  padding-top: 105px;
+  padding-bottom: 108px;
+}
+
+.reviews .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  max-height: 900px;
+  padding: 0 15px 0 15px;
+}
+
+.reviews .container .reviews__title {
+  width: 48.3%;
+  margin-top: 29px;
+  margin-bottom: 46px;
+  font-size: 4.8rem;
+  font-weight: 700;
+  padding-right: 18%;
+  padding-bottom: 40px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.reviews .container .reviews__item {
+  width: 48.3%;
+  margin-right: 43px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 40px 37px 13px 40px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+.reviews .container .reviews__item .review__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 38px;
+}
+
+.reviews .container .reviews__item .review__header .review__avatar {
+  margin-right: 16px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.reviews .container .reviews__item .review__header .user__name {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.reviews .container .reviews__item .review__header .review__icon {
+  margin-left: auto;
+  width: 24px;
+  height: 24px;
+}
+
+.reviews .container .reviews__item .review__body {
+  font-size: 17px;
+  line-height: 1.76;
+  letter-spacing: 0.18px;
+  margin-bottom: 10px;
+}
+
+.reviews .container .reviews__item .review__footer {
+  line-height: 3;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.reviews .container .reviews__item:nth-of-type(1) {
+  background-color: #E8E5FB;
+}
+
+.reviews .container .reviews__item:nth-of-type(2) {
+  background-color: #E8FAF3;
+}
+
+.reviews .container .reviews__item:nth-of-type(3) {
+  background-color: #FDEBEE;
+}
+
+.reviews .container .reviews__item:nth-of-type(4) {
+  background-color: #E6F3FF;
+}
+
+.reviews .container .reviews__item:nth-of-type(5) {
+  background-color: #FFF5E1;
+}
+
+footer {
+  background-color: #F8F8F9;
+}
+
+.footer {
+  max-width: 1232px;
+  margin: 0 auto;
+}
+
+.footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 55px 15px 57px 15px;
+}
+
+.footer .container .footer__item {
+  width: 225px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.875;
+}
+
+.footer .container .footer__item .footer__title {
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.footer .container .footer__logo {
+  width: 92px;
+  height: 24px;
+  margin-bottom: 24px;
+}
+
+.footer .container .footer__icon {
+  width: 20px;
+  height: 24px;
+  margin-top: 24px;
+  margin-right: 24px;
+  display: inline-block;
+}
+/*# sourceMappingURL=style.css.map */
