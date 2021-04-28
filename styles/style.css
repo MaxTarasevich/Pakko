@@ -51,7 +51,7 @@ ul {
   .header .header__logo {
     width: 100%;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 }
 
@@ -200,6 +200,12 @@ ul {
   margin-bottom: 10px;
 }
 
+@media (max-width: 450px) {
+  .banner .btn-group__btn {
+    padding: 1.2rem 3rem;
+  }
+}
+
 .banner .btn-group__btn-main {
   font-size: 1.5rem;
   background-color: #624DE3;
@@ -232,6 +238,12 @@ ul {
   .section__title {
     padding-left: 0px;
     font-size: 3.4rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .section__title {
+    font-size: 2.2rem;
   }
 }
 
@@ -457,6 +469,12 @@ ul {
 @media (max-width: 600px) {
   .reviews .container .reviews__title {
     font-size: 3.4rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .reviews .container .reviews__title {
+    font-size: 2.2rem;
   }
 }
 
@@ -688,5 +706,11 @@ footer {
   margin-top: 24px;
   margin-right: 24px;
   display: inline-block;
+}
+
+@media (max-width: 400px) {
+  .footer .container .footer__icon {
+    margin-top: 10px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
