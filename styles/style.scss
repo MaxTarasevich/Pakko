@@ -93,7 +93,9 @@ justify-content: center;
     }
 }
 }
+
 /*************************Section Banner************************/
+
 .banner{
     text-align: center;
     background-color:$dark;
@@ -161,7 +163,9 @@ justify-content: center;
     }
     }
 }
+
 /*************************Section section************************/
+
 .section{
     .container{
         padding-top:11%;
@@ -187,7 +191,6 @@ justify-content: center;
     }
 }
 }
-
 .tarif{
     display: flex;
     justify-content: space-between;
@@ -234,7 +237,6 @@ justify-content: center;
                     background-size:cover;
                     width: 6.1rem;
                     height: 1.6rem;
-
                 }
             }
             &__price{
@@ -285,7 +287,7 @@ justify-content: center;
                 background-image: url(../images/tarif-03-bg.svg);
             }
             .tarif-footer{
-                background-color:rgba($color: #FCB934, $alpha: 0.05)
+                background-color:rgba($color: #FCB934, $alpha: 0.05);
             }
             .tarif-list__item{
                 &::before{
@@ -319,7 +321,9 @@ justify-content: center;
         }
     }
 }
+
 /*******************************Section reviews****************************/
+
 .reviews{
     .container{
         display: flex;
@@ -449,6 +453,7 @@ justify-content: center;
        
     }
 }
+
 /*************************Section footer************************/
 
 footer{
