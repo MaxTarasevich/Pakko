@@ -141,8 +141,11 @@ ul {
   text-align: center;
   background-color: #100A30;
   color: #FFFFFF;
+}
+
+.banner .container {
   padding-top: 4.4%;
-  padding-bottom: 50%;
+  padding-bottom: 52%;
 }
 
 .banner__title {
@@ -228,13 +231,14 @@ ul {
   padding: 1.6rem 3.7rem;
 }
 
-.section {
-  padding-top: 3%;
-  padding-bottom: 6%;
+/*************************Section section************************/
+.section .container {
+  padding-top: 11%;
+  padding-bottom: 4%;
 }
 
 @media (max-width: 900px) {
-  .section {
+  .section .container {
     padding-bottom: 0;
   }
 }
@@ -424,17 +428,7 @@ ul {
   background-size: cover;
 }
 
-.reviews {
-  padding-top: 7.3%;
-  padding-bottom: 5%;
-}
-
-@media (max-width: 900px) {
-  .reviews {
-    padding-top: 3%;
-  }
-}
-
+/*******************************Section reviews****************************/
 .reviews .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -448,6 +442,14 @@ ul {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 0 15px 0 15px;
+  padding-top: 9.3%;
+  padding-bottom: 5%;
+}
+
+@media (max-width: 900px) {
+  .reviews .container {
+    padding-top: 3%;
+  }
 }
 
 .reviews .container .column {
@@ -614,6 +616,7 @@ ul {
   background-color: #FFF5E1;
 }
 
+/*************************Section footer************************/
 footer {
   background-color: #F8F8F9;
 }
@@ -637,15 +640,15 @@ footer {
 
 @media (max-width: 1250px) {
   .footer .container {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    width: 90%;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1050px) {
   .footer .container {
-    width: 90%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
@@ -656,7 +659,7 @@ footer {
   line-height: 1.875;
 }
 
-@media (max-width: 1250px) {
+@media (max-width: 1050px) {
   .footer .container .footer__item {
     width: 40%;
     margin-right: 5%;
@@ -705,10 +708,17 @@ footer {
 .footer .container .footer__logo + .footer__social-item {
   width: 100%;
   margin-top: 14px;
-  margin-bottom: 14px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 600px) {
+  .footer .container .footer__logo + .footer__social-item {
+    margin-bottom: 14px;
+  }
 }
 
 .footer .container .footer__icon {
+  display: inline-block;
   width: 20px;
   height: 24px;
   margin-right: 24px;

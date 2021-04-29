@@ -98,8 +98,10 @@ justify-content: center;
     text-align: center;
     background-color:$dark;
     color:$white;
+    .container{
     padding-top: 4.4%;
-    padding-bottom: 50%;
+    padding-bottom: 52%;
+    }
 &__title{
     font-size: 5.5rem;
     font-weight: 400;
@@ -159,12 +161,14 @@ justify-content: center;
     }
     }
 }
-
+/*************************Section section************************/
 .section{
-    padding-top:3%;
-    padding-bottom: 6%;
-    @media (max-width:900px){
-        padding-bottom: 0;
+    .container{
+        padding-top:11%;
+        padding-bottom: 4%;
+        @media (max-width:900px){
+            padding-bottom: 0;
+        }
     }
 &__title{
     padding-top: 60px;
@@ -315,18 +319,19 @@ justify-content: center;
         }
     }
 }
+/*******************************Section reviews****************************/
 .reviews{
-    padding-top: 7.3%;
-    padding-bottom: 5%;
-    @media (max-width:900px){
-        padding-top: 3%;
-    }
     .container{
         display: flex;
         flex-wrap: wrap;
         align-items: flex-start;
         justify-content: space-between;
         padding: 0 15px 0 15px;
+        padding-top: 9.3%;
+        padding-bottom: 5%;
+        @media (max-width:900px){
+            padding-top: 3%;
+        }
         .column {
             flex: 48%;
             max-width: 48%;
@@ -444,6 +449,8 @@ justify-content: center;
        
     }
 }
+/*************************Section footer************************/
+
 footer{
 background-color:$grey;
 }
@@ -456,17 +463,17 @@ background-color:$grey;
         justify-content: space-between;
         padding: 55px 0px 57px 0px;
         @media (max-width:1250px){
-            justify-content: center;
-        }
-        @media (max-width:600px){
             width: 90%;
+        }
+        @media (max-width:1050px){
+            justify-content: center;
         }
         .footer__item{
             width: 225px;
             font-size: 16px;
             font-weight: 400;
             line-height: 1.875;
-            @media (max-width:1250px){
+            @media (max-width:1050px){
                 width: 40%;
                 margin-right: 5%;
                 margin-bottom: 3%;
@@ -505,9 +512,13 @@ background-color:$grey;
         .footer__logo+.footer__social-item{
             width: 100%;
             margin-top: 14px;
+            margin-bottom: 30px;
+            @media (max-width:600px){
             margin-bottom: 14px;
+            }
         }
         .footer__icon{
+            display: inline-block;
             width: 20px;
             height: 24px;
             margin-right: 24px;
